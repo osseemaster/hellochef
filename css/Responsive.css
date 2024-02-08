@@ -1,0 +1,309 @@
+@media screen  and (max-width: 1200px) {
+  /* SECTION ONE */
+  .bannerText{
+    width: 40%;
+  }
+  .sectionOne .logo{
+    font-size: 32px;
+    font-weight:700 ;
+  }
+  .sectionOne .signIn-btn{
+    font-size: 16px;
+    font-weight: 350px;
+  }
+  .sectionOne a{
+    font-size: 18px;
+    font-weight:200px;
+  }
+  /* SECTION TWO */
+  .sectionTwo .image {
+    border-radius: 10px;
+  }  
+  .sectionTwo .description > p {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .sectionTwo .description >h3{
+    font-size: 26px;
+    color: #5b5b5b;
+    font-weight: 600;
+  }
+  /* SECTION THREE */
+  .sectionThree .text{
+    height: 75%;
+  }
+  .sectionThree .learn-btn{
+    margin-top: 20px;
+  }
+  /* SECTION FOUR */
+  .sectionFour {
+    height: 80vh;
+  }
+  .sectionFour .menu{
+    height: 40%;
+    margin-top: -40px;
+  }
+  .sectionFour h2{
+    margin-top:40px;
+    margin-bottom: -35px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .sectionFour .menu-btn{
+    margin-bottom: 80px;      
+  }
+  /* .sectionFive */
+  .sectionFive{
+    height: 100vh;
+  }
+  .sectionFive .users {
+    height: 39%;
+    margin: 0px 60px;
+    gap: 20px;
+  }
+}
+  
+@media screen  and (max-width: 768px) {
+  /* SECTION ONE */
+  .banner{
+    align-items:flex-start;
+    padding-bottom: -200px;
+  }
+  .sectionOne  .bannerText{
+    text-align: center;
+    width: 100%;
+    /* margin-top: 100px; */
+  }
+  .sectionOne .navbar{
+    justify-content: center;
+  }
+  
+.sectionOne .navigation{
+  display: none;
+}
+  .sectionOne h1{
+    font-size: 30px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .sectionOne p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .sectionOne .signUp-btn {
+    padding: 15px 35px;
+    width: 95%;
+  }
+  /* SECTION TWO */
+  .sectionTwo{
+    height:150svh;
+    /* width: 100%; */
+    /* margin-top: -200px; */
+  }
+  .sectionTwo .variety{
+  margin:0px;
+}
+.sectionTwo .title{
+height: fit-content;
+padding: 20px 0;
+}
+
+  .sectionTwo h2{
+    /* margin-top: -90px; */
+    font-size: 24px;
+  }
+  .sectionTwo .principle{
+    width: 50%;
+    /* min-width: 200px; */
+    height: 30%;
+  }  
+.principle .description{
+  /* padding-bottom: -200px; */
+}
+  
+.principle .image{
+  height: 65%;
+}
+.principle .description{
+  height: 35%;
+}
+  .sectionTwo .content{
+    flex-direction: column;
+    height:90%;
+    /* padding: -40px 0px; */
+    justify-content: space-around;
+    /* margin-top: -0px; */
+  }
+  /* .sectionThree */
+  .sectionThree{
+    flex-direction: column-reverse;
+    height: 150vh;
+    width: 100%;
+  }
+  .sectionThree h2{
+    text-align: center;
+}
+  .sectionThree .text{
+    width: 90%;
+  }
+  .sectionThree .content,
+  .sectionThree .image{
+    height: 100%;
+    width: 100%; 
+  
+  }  
+.sectionThree .learn-btn{ 
+  width: 100%;
+}
+/* .sectionFour */
+
+.sectionFour {
+  height: 150svh;
+  justify-content: space-evenly;
+}
+.sectionFour h2,
+.sectionFour p {
+  text-align: center;
+}
+.sectionFour p{
+  width: 100%;
+}
+
+.sectionFour .menu{
+  height:70%;
+}
+
+/* SECTION FOUR */
+.sectionFour {
+  height: 180svh;
+  justify-content: space-evenly;
+}
+.sectionFour h2,
+.sectionFour p {
+  text-align: center;
+  font-size: 25px;
+}
+.sectionFour p{
+  width: 90%;
+  font-size: 16px;
+}
+.sectionFour .menu {
+  height: 60%;
+  flex-direction: column;
+}
+.sectionFour .item {
+  height: 30%;
+  width: 50%;
+}
+.sectionFour .item {
+  height: 40%;
+}
+.sectionFour .menu{
+  gap: 20px;
+}
+.sectionFour .menu-btn{
+  padding: 10px 30px;
+  width: 95%;
+  height: 4%;  
+}
+
+/*SECTION FIVE*/
+
+.sectionFive{
+  height: 100svh;
+}
+.sectionFive .users{
+  height: 75%;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.sectionFive .user{
+  max-height: 50%;
+  float: left;
+  min-width: 43%;
+  background-position: top;
+}
+.sectionFive .rating{
+  height: 20%;
+}
+/*SECTION SIX*/
+.sectionSix .form {
+  height: 55%;
+  width: 95%;
+}
+.sectionSix .disclaimer {
+  width: 90%;
+}
+
+  
+}
+@media screen  and (max-width: 320px) {
+
+  /*SECTION ONE */
+  .sectionOne .bannerText{
+    margin-top: 60px;
+  }
+  .sectionOne h1{
+    font-size: 32px;
+  }
+
+  .principle .image{
+    height: 50%;
+
+  }
+  .principle .description{
+    height: 35%;
+  
+  }
+  .sectionTwo .principle{
+    width: 95%;
+  }
+  .sectionTwo .content{
+    height:85%
+  }
+
+  .sectionThree .image{
+    height: 80%;
+    background-position: center;
+  }
+
+  .sectionFour .item {
+    height: 30%;
+    width: 80%;
+  }
+  .sectionFour {
+    height: 150svh;
+    justify-content: space-evenly;
+  }
+  
+
+  
+
+
+
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  
